@@ -1,0 +1,13 @@
+﻿@model int
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<form action="MagicNumber" method="post">
+    <p>Number 1: <input name="inputNumber1" type="number" /></p>
+    <p>Number 2: <input name="inputNumber2" type="number" /></p>
+    <input name="submit" type="submit" />
+</form>
+<p>The magic number is : @Model</p>
+
