@@ -1,0 +1,12 @@
+﻿@model int
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<form action="Index" method="post">
+    <p>Last Name: <input name="lastName" /></p>
+    <p>Age: <input name="age" type="number" /></p>
+    <input name="submit" type="submit" />
+</form>
+<p>The absolute value of the difference in length of last name and age is: @Model</p>

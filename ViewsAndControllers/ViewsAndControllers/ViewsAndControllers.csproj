@@ -122,6 +122,8 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\DateController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\HowOldController.cs" />
+    <Compile Include="Controllers\LastNameAgeController.cs" />
     <Compile Include="Controllers\MagicNumberController.cs" />
     <Compile Include="Controllers\SquareANumberController.cs" />
     <Compile Include="Controllers\StringActivityController.cs" />
@@ -170,6 +172,8 @@
     <Content Include="Views\SquareANumber\Index.cshtml" />
     <Content Include="Views\MagicNumber\Index.cshtml" />
     <Content Include="Views\Date\Index.cshtml" />
+    <Content Include="Views\LastNameAge\Index.cshtml" />
+    <Content Include="Views\HowOld\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
